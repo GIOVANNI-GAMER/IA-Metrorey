@@ -1,0 +1,235 @@
+{
+  "lineas": {
+    "L1": {
+      "color": "amarillo",
+      "tramos": [
+        {
+          "desde": "Exposición",
+          "hasta": "Lerdo de Tejada",
+          "minutos": 1
+        },
+        {
+          "desde": "Lerdo de Tejada",
+          "hasta": "Eloy Cavazos",
+          "minutos": 3
+        },
+        {
+          "desde": "Eloy Cavazos",
+          "hasta": "Y Griega",
+          "minutos": 2
+        },
+        {
+          "desde": "Y Griega",
+          "hasta": "Arena Monterrey",
+          "minutos": 2
+        },
+        {
+          "desde": "Arena Monterrey",
+          "hasta": "Félix U. Gómez",
+          "minutos": 2
+        },
+        {
+          "desde": "Félix U. Gómez",
+          "hasta": "Del Golfo",
+          "minutos": 2
+        },
+        {
+          "desde": "Del Golfo",
+          "hasta": "Cuauhtémoc",
+          "minutos": 2
+        },
+        {
+          "desde": "Cuauhtémoc",
+          "hasta": "Central",
+          "minutos": 1
+        },
+        {
+          "desde": "Central",
+          "hasta": "Edison",
+          "minutos": 2
+        },
+        {
+          "desde": "Edison",
+          "hasta": "Hospital",
+          "minutos": 3
+        },
+        {
+          "desde": "Hospital",
+          "hasta": "Simón Bolívar",
+          "minutos": 1
+        },
+        {
+          "desde": "Simón Bolívar",
+          "hasta": "Mitras",
+          "minutos": 2
+        },
+        {
+          "desde": "Mitras",
+          "hasta": "Alfonso Reyes",
+          "minutos": 2
+        },
+        {
+          "desde": "Alfonso Reyes",
+          "hasta": "Penitenciaría",
+          "minutos": 1
+        },
+        {
+          "desde": "Penitenciaría",
+          "hasta": "Aztlán",
+          "minutos": 2
+        },
+        {
+          "desde": "Aztlán",
+          "hasta": "Unidad Modelo",
+          "minutos": 3
+        },
+        {
+          "desde": "Unidad Modelo",
+          "hasta": "San Bernabé",
+          "minutos": 2
+        },
+        {
+          "desde": "San Bernabé",
+          "hasta": "Talleres",
+          "minutos": 2
+        }
+      ]
+    },
+    "L2": {
+      "color": "verde",
+      "tramos": [
+        {
+          "desde": "General I. Zaragoza",
+          "hasta": "Padre Mier",
+          "minutos": 1
+        },
+        {
+          "desde": "Padre Mier",
+          "hasta": "Fundadores",
+          "minutos": 1
+        },
+        {
+          "desde": "Fundadores",
+          "hasta": "Alameda",
+          "minutos": 1
+        },
+        {
+          "desde": "Alameda",
+          "hasta": "Cuauhtémoc",
+          "minutos": 2
+        },
+        {
+          "desde": "Cuauhtémoc",
+          "hasta": "General Anaya",
+          "minutos": 2
+        },
+        {
+          "desde": "General Anaya",
+          "hasta": "Regina",
+          "minutos": 3
+        },
+        {
+          "desde": "Regina",
+          "hasta": "Niños Héroes",
+          "minutos": 2
+        },
+        {
+          "desde": "Niños Héroes",
+          "hasta": "Universidad",
+          "minutos": 1
+        },
+        {
+          "desde": "Universidad",
+          "hasta": "Anáhuac",
+          "minutos": 4
+        },
+        {
+          "desde": "Anáhuac",
+          "hasta": "San Nicolás",
+          "minutos": 2
+        },
+        {
+          "desde": "San Nicolás",
+          "hasta": "Santiago Tapia",
+          "minutos": 2
+        },
+        {
+          "desde": "Santiago Tapia",
+          "hasta": "Sendero",
+          "minutos": 2
+        }
+      ]
+    },
+    "L3": {
+      "color": "rojo",
+      "tramos": [
+        {
+          "desde": "General I. Zaragoza",
+          "hasta": "Santa Lucía",
+          "minutos": 2
+        },
+        {
+          "desde": "Santa Lucía",
+          "hasta": "Colonia Obrera",
+          "minutos": 2
+        },
+        {
+          "desde": "Colonia Obrera",
+          "hasta": "Félix U. Gómez",
+          "minutos": 1
+        },
+        {
+          "desde": "Félix U. Gómez",
+          "hasta": "Metalúrgicos",
+          "minutos": 1
+        },
+        {
+          "desde": "Metalúrgicos",
+          "hasta": "Moderna",
+          "minutos": 3
+        },
+        {
+          "desde": "Moderna",
+          "hasta": "Ruiz Cortines",
+          "minutos": 1
+        },
+        {
+          "desde": "Ruiz Cortines",
+          "hasta": "Los Ángeles",
+          "minutos": 1
+        },
+        {
+          "desde": "Los Ángeles",
+          "hasta": "Hospital Metropolitano",
+          "minutos": 2
+        }
+      ]
+    }
+  },
+  "transbordos": [
+    {
+      "estacion": "Cuauhtémoc",
+      "lineas": [
+        "L1",
+        "L2"
+      ],
+      "minutos": 3.5
+    },
+    {
+      "estacion": "General I. Zaragoza",
+      "lineas": [
+        "L2",
+        "L3"
+      ],
+      "minutos": 2.5
+    },
+    {
+      "estacion": "Félix U. Gómez",
+      "lineas": [
+        "L1",
+        "L3"
+      ],
+      "minutos": 2.5
+    }
+  ]
+}
