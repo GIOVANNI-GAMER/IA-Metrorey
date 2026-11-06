@@ -8,6 +8,8 @@ def main():
     with open("metrorrey.json", "r", encoding="utf-8") as f:
         metrorrey = json.load(f)
 
+    print(metrorrey)
+
 
 if __name__ == "__main__":
     main()
